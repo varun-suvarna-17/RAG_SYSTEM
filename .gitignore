@@ -1,0 +1,51 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# FastAPI / local runtime
+*.log
+logs/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.pkl
+*.pickle
+chroma/
+faiss_index/
+vectorstore/
+uploads/
+outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
