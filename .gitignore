@@ -44,8 +44,17 @@ vectorstore/
 uploads/
 outputs/
 
+# FAISS index files (generated locally — may contain college data)
+Backend/embeddings/faiss.index
+Backend/embeddings/metadata.json
+*.index
+
 # OS / editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+*.local
+
+# Cursor / assets (local workspace files)
+assets/
